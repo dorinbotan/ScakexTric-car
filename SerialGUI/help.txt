@@ -1,0 +1,14 @@
+70/100 - Drive with given speed
+101 - Brake
+102 - Headlights ON
+103 - Headlights OFF
+104 - Rearlights ON
+105 - Rearlights OFF
+106 - Horn ON
+107 - Horn OFF
+200 - Go to start line
+201 - Start mapping the track
+CONNECT [port] [baundrate] - Connect (COM4, 57600bpm by default) 
+CLS - Clear the screen
+EXIT - Terminate the execution
+HELP - Provide help information

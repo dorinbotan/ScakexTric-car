@@ -1,0 +1,9 @@
+c:\users\dorin\documents\visual studio 2015\Projects\SerialGUI\SerialGUI\bin\Debug\SerialGUI.exe.config
+c:\users\dorin\documents\visual studio 2015\Projects\SerialGUI\SerialGUI\bin\Debug\SerialGUI.exe
+c:\users\dorin\documents\visual studio 2015\Projects\SerialGUI\SerialGUI\bin\Debug\SerialGUI.pdb
+c:\users\dorin\documents\visual studio 2015\Projects\SerialGUI\SerialGUI\obj\Debug\SerialGUI.csprojResolveAssemblyReference.cache
+c:\users\dorin\documents\visual studio 2015\Projects\SerialGUI\SerialGUI\obj\Debug\SerialGUI.Properties.Resources.resources
+c:\users\dorin\documents\visual studio 2015\Projects\SerialGUI\SerialGUI\obj\Debug\SerialGUI.csproj.GenerateResource.Cache
+c:\users\dorin\documents\visual studio 2015\Projects\SerialGUI\SerialGUI\obj\Debug\SerialGUI.exe
+c:\users\dorin\documents\visual studio 2015\Projects\SerialGUI\SerialGUI\obj\Debug\SerialGUI.pdb
+c:\users\dorin\documents\visual studio 2015\Projects\SerialGUI\SerialGUI\obj\Debug\SerialGUI.Form1.resources
