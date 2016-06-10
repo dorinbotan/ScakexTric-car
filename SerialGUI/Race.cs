@@ -25,14 +25,24 @@ namespace SerialGUI
 
             for (int i = 0; i < Laps[Laps.Count - 1].Records.Count; i++)
             {
-                if (Math.Abs((int)(Laps[Laps.Count - 1].Records[i].ZRot)) < 5000)
+                try
+                {
+                    if (Math.Abs((int)(Laps[Laps.Count - 1].Records[i + 15].ZRot)) < 5000)
+                    {
+                        Instruction tmp = new Instruction(Laps[Laps.Count - 1].GetInstructions()[i].GetTacho(),
+                            90, 0);
+                        toReturn.Add(tmp);
+                    }
+                    else
+                        toReturn.Add(Laps[Laps.Count - 1].GetInstructions()[i]);
+                }
+                catch (Exception)
                 {
                     Instruction tmp = new Instruction(Laps[Laps.Count - 1].GetInstructions()[i].GetTacho(),
-                        90, 0);
-                    toReturn.Add(tmp);
+                            90, 0);
+                    for(int j = 0; j < 15; j++)
+                        toReturn.Add(tmp);
                 }
-                else
-                    toReturn.Add(Laps[Laps.Count - 1].GetInstructions()[i]);
             }                                     
 
             return toReturn;
