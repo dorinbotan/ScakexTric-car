@@ -15,9 +15,7 @@ namespace SerialGUI
 
         private int i, reforward;
         private OutMessage messageSent;
-        private InMessage messageReceived;                          
-        private Lap lap = new Lap();
-        private Race race = new Race();              
+        private InMessage messageReceived;              
         private bool waitACK = false;
         private int position = 0;                                                               
 
@@ -55,6 +53,11 @@ namespace SerialGUI
         public void Write(byte instruction)
         {
             port.Write(new byte[] { instruction }, 0, 1);     
+        }
+
+        public void SendInstructions()
+        {
+
         }
         
         private void Read()
@@ -123,7 +126,10 @@ namespace SerialGUI
                                     }
                                 }
                                 else
+                                {
+                                    Console("All messages received");
                                     new Thread(SendCommands).Start();
+                                }
                             }
                             catch (Exception) { }
                         }
